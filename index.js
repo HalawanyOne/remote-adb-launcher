@@ -4,7 +4,7 @@ const net = require("net");
 
 
 const app = express();
-const port = process.env.PORT || 3000;
+
 
 // Example usage of remote-adb
 app.get("/", async (req, res) =>  {
@@ -15,7 +15,3 @@ app.get("/", async (req, res) =>  {
   }
 });
 
-// // Start the server
-// app.listen(port, () => {
-//   console.log(`Server is running on http://localhost:${port}`);
-// });
